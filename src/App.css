@@ -1,0 +1,80 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.App .card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}
+
+.loginBtn {
+  width: 500px;
+  height: 200px;
+  font-size: 70px;
+  font-family: 'Exo 2', sans-serif;
+  background-color: black;
+  color: white;
+}
+.loginBtn:hover {
+  color:black;
+  background-color: white;
+  transition: 300ms;
+}
+
+.logoutBtn {
+  width: 100px;
+  height: 50px;
+  right: 250px;
+  top: 35px;
+  position: absolute;
+  font-family: 'Exo 2', sans-serif;
+  background-color: black;
+  color: white;
+}
+.logoutBtn:hover {
+  color:black;
+  background-color: white;
+  transition: 300ms;
+}
+.column {
+  right: 60px;
+  top: 0px;
+  position: absolute;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+.q_title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
